@@ -1,4 +1,6 @@
 import 'package:agri_bridge/app/app_colors.dart';
+import 'package:agri_bridge/feature/home/reportings/custome_report_points.dart';
+import 'package:agri_bridge/feature/home/reportings/custome_report_widget.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
@@ -215,23 +217,10 @@ class _HomePageState extends State<HomePage> {
               ],
             ),
           ),
-          // Container(
-          //   width: sWidth * 0.9,
-          //   height: sHeight * 0.15, // Adjust height as needed
-          //   decoration: BoxDecoration(
-          //       boxShadow: [
-          //         BoxShadow(
-          //           color: Colors.black.withOpacity(0.3),
-          //           spreadRadius: 2,
-          //           blurRadius: 5,
-          //           offset: Offset(0, 3), // changes position of shadow
-          //         ),
-          //       ],
-          //       color: AppColors.bg1,
-          //       borderRadius: BorderRadius.only(
-          //           bottomLeft: Radius.circular(10),
-          //           bottomRight: Radius.circular(10))),
-          // ),
+          SizedBox(
+            height: sHeight * 0.5,
+            child: CustomeReportWidget(reportPoints1, reportPoints2),
+          )
         ],
       ),
     ));
