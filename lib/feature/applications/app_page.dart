@@ -72,7 +72,7 @@ class _ApplicationPageState extends State<ApplicationPage> {
                           padding: const EdgeInsets.symmetric(
                               vertical: 20.0, horizontal: 20),
                           child: Text(
-                            "Hello, Abduse",
+                            "Hello, Abdu",
                             style: Theme.of(context).textTheme.headlineLarge,
                           ),
                         ),
