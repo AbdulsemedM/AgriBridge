@@ -219,7 +219,10 @@ class _SignupState extends State<Signup> {
                                   color: AppColors.primaryColor,
                                 ),
                               )
-                            : const Text("Signup"),
+                            : const Text(
+                                "Signup",
+                                style: TextStyle(color: AppColors.bg1),
+                              ),
                       ),
                     ],
                   ),

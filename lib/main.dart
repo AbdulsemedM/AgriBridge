@@ -1,6 +1,6 @@
 import 'package:agri_bridge/app/app_colors.dart';
 import 'package:agri_bridge/app/app_theme.dart';
-import 'package:agri_bridge/feature/login/widgets/login.dart';
+import 'package:agri_bridge/feature/login/presentation/widgets/login.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 

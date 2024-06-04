@@ -4,7 +4,7 @@ import 'package:agri_bridge/app/app_theme.dart';
 import 'package:agri_bridge/app/app_colors.dart';
 import 'package:agri_bridge/app/utils/assets.dart';
 import 'package:agri_bridge/feature/dashboard/dashboard_page.dart';
-import 'package:agri_bridge/feature/signup/signup.dart';
+import 'package:agri_bridge/feature/signup/presentation/signup.dart';
 import 'package:flutter/material.dart';
 
 class LoginPage extends StatefulWidget {
@@ -164,7 +164,10 @@ class _LoginPageState extends State<LoginPage> {
                             color: AppColors.primaryColor,
                           ),
                         )
-                      : const Text("Login"),
+                      : const Text(
+                          "Login",
+                          style: TextStyle(color: AppColors.bg1),
+                        ),
                 ),
               ],
             ),
